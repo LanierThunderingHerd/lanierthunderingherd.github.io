@@ -4103,6 +4103,14 @@ background-image: linear-gradient(to right top, #853900, #a24600, #c05300, #df60
   opacity: 0;
   margin-bottom: -50px;
 }
+ .fullPayment{
+  border-width:thick;
+  border-color:black;
+}
+.halfPayment{
+  border-width:thick;
+  border-color:black;
+}
 
 .price_item:hover {
   border-color: #6247ea;
