@@ -3914,6 +3914,7 @@ h6 {
 
 .team_inner {
   margin-bottom: -50px;
+  justify-content: center;
 }
 
 .team_item {
