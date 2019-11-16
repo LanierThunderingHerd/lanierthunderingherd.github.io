@@ -8,10 +8,7 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <meta
-    http-equiv="refresh"
-    content="0; URL='http://laniertrackandfield.com/comingsoon.html'"
-  />
+
     <title>LHS Track and Field</title>
     <link
       rel="shortcut icon"
@@ -101,23 +98,26 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="Schedule.html">
-                  Schedule
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="Gallery.html">
-                Gallery
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="Payments.html">
+              <a class="nav-link" href="Payments.html">
                 Payments
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="Resources.html">Resources</a>
-            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Info
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="Resources.html">Resources</a>
+                  <a class="dropdown-item" href="Schedule.html">Schedule</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="Gallery.html">Photo Gallery</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="Thundering Herd.html">
+                      Thundering Herd
+                    </a>
+              </li>
             <!--<li class="nav-item">
       <a class="nav-link js-scroll-trigger" href="Contact.html">Contact</a>
     </li>-->
@@ -138,35 +138,61 @@
       </div>
     </header>
 
-    <!-- Modal 3 -->
-
-    <!-- Modal 4 -->
-  
-    <!--================Contact Area =================-->
-
-  <!-- Modal 3 -->
- 
-  <!-- Modal 4 -->
   <section class="contact_area p_120">
     <div class="container">
-            <div class="row">
-                    <div class="col halfPayment"><h2>Track Half Payment</h2>
-                    <p>$125</p>
-                    <label for="name">Athlete Name:</label>
+        <h3>Pay Via PayPal</h3>
+        <p> 
+          When you are directed to PayPal by clicking the button you do not have to open an account, just use your credit card.
+         </p>
+         
+       <p>Thank you for supporting Lanier Longhorn Track and Field!</p>
+        <div class="row">
+            <div class="col-sm">
+                <h1 class="text-center">Player Fee (Required)</h1>
 
-<input type="text" id="name" name="name">
-<button>Submit</button>
+               <div class="card mx-auto" style="width: 18rem;">
+                   <div class="card-body">
+                     <h5 class="card-title text-center">Pay In Full - $283.53 ($275 + Paypal fees)</h5>
+                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="9CBE2SQ4KW8P6">
+                      <table>
+                      <tr><td><input type="hidden" name="on0" value="Players Name">Players Name</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+                      </table>
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                      </form>
+                      
+                   </div>
+               </div>
+            </div>
+            <div class="col-sm">
+                <h1 class="text-center">Donations</h1>
+    
+                <div class="card mx-auto" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center" ></h5>
+                      <p>Want to support the team! Just click the button below. Thank you for your support!</p>
+                      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick" />
+                        <input type="hidden" name="hosted_button_id" value="HKP9P9CWLNFAJ" />
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                        <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                        </form>            
                     </div>
-                    <div class="col fullPayment"><h2>Track Full Payment</h2>
-                    <p>$250</p>
-                    <label for="name">Athlete Name:</label>
+                </div>
+            </div>
 
-<input type="text" id="name" name="name">
-<button>Submit</button>
-                    </div>
-                
-                  </div>
-
+          </div>
+    
+          <hr/>
+       
+          <h3>Pay by Check or Money Order</h3>
+          <p>
+            To pay by Check or Money order please make the amount out to: Lanier Thundering Herd Track and Field.
+          </p>
+          <hr/>
+          <p class="text-center">Donations and Fees are non refundable</p>
     </div>
 
 </section>
@@ -255,17 +281,11 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/stellar.js"></script>
     <script src="vendors/lightbox/simpleLightbox.min.js"></script>
     <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
     <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
     <script src="vendors/isotope/isotope-min.js"></script>
     <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="vendors/flipclock/timer.js"></script>
     <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
     <script src="vendors/counter-up/jquery.counterup.js"></script>
     <!-- Plugin JavaScript -->
