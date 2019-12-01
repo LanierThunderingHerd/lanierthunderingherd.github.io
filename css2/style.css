@@ -4142,6 +4142,7 @@ background-image: linear-gradient(to right top, #853900, #a24600, #c05300, #df60
 
 .single-footer-widget p {
   margin-bottom: 0px;
+  margin-left:10px;
 }
 
 .single-footer-widget .instafeed {
